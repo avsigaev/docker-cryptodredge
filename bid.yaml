@@ -1,0 +1,27 @@
+# spot deal (0h, supplier may close the deal at any moment), or forward deal duration (fixed time)
+
+duration: 0h
+price: 0.03 USD/h
+
+#counterparty: 0xedB7Ae4B946Cf249349974A02e354B5FBC577798
+
+identity: anonymous
+
+#tag: test
+
+resources:
+  network:
+    overlay: false
+    outbound: true
+    incoming: false
+
+  benchmarks:
+    ram-size: 512000000
+    cpu-cores: 1
+    cpu-sysbench-single: 500
+    cpu-sysbench-multi: 100
+    net-download: 1000000
+    net-upload: 1000000
+    gpu-count: 1
+    gpu-mem: 3000000000
+    gpu-eth-hashrate: 18000000
